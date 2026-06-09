@@ -48,7 +48,7 @@ Nella directory dedicata sono presenti i file SQL per la gestione automatica del
 
 ---
 
-## 📊 Requisiti Utente e d'Uso
+## Requisiti Utente e d'Uso
 L'utente interagisce con il sistema potendo:
 1. Inserire la finestra temporale di analisi.
 2. Visionare direttamente sul database PostgreSQL l'esito delle elaborazioni (valori filtrati, medie, covarianze, sensori nulli e anomalie individuate).
