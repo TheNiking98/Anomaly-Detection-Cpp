@@ -2,7 +2,7 @@
 
 Questo software è un sistema di **Anomaly Detection** sviluppato in **C++** per l'esame di *Ingegneria del Software* (Ottobre 2024). Il sistema analizza i dati provenienti da una serie di sensori, calcola metriche statistiche e identifica anomalie sfruttando la deviazione standard come discriminante principale.
 
-## 🛠️ Stack Tecnologico
+## Stack Tecnologico
 * **Linguaggio:** C++
 * **Database Relazionale:** PostgreSQL (per lo storage a lungo termine e le relazioni)
 * **In-Memory Data Store:** Redis (utilizzato per la gestione rapida e la cache dei dati filtrati)
@@ -10,14 +10,7 @@ Questo software è un sistema di **Anomaly Detection** sviluppato in **C++** per
 
 ---
 
-## 👥 Autori (Studenti)
-* **Bracoloni Daniele** - Mat. 1985841
-* **Brunetti Luca** - Mat. 1967993
-* **Decembrini Niccolò** - Mat. 2083867
-
----
-
-## 📖 Funzionamento del Sistema
+## Funzionamento del Sistema
 
 Il software opera ricevendo in input un file CSV e una **finestra temporale ($W_e$)** specificata dall'utente. Il flusso di elaborazione principale segue questi step:
 
@@ -35,7 +28,7 @@ Il software opera ricevendo in input un file CSV e una **finestra temporale ($W_
 
 ---
 
-## 🧱 Architettura dei Componenti
+## Architettura dei Componenti
 
 Il sistema è suddiviso in moduli logici ben definiti:
 
