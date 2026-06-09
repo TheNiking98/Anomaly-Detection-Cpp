@@ -1,0 +1,10 @@
+# Escludi i binari compilati e le cartelle di build
+build/
+bin/
+*.o
+*.exe
+AnomalyDetector/src/data/Sensordataset.csv
+
+# Escludi file di configurazione dell'IDE (es. VS Code o CLion)
+.vscode/
+.idea/
